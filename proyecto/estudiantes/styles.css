@@ -1,0 +1,125 @@
+*{box-sizing: border-box;
+    margin: 0 ;
+    padding: 0px;
+    
+    }
+    body{
+        background: black;
+        color: rgb(7, 5, 5);
+        background-color: white;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 30px 10px;    
+    }
+    .cabezaimg{
+        width: 100%;
+        height: 300px;
+    }
+    
+    
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+    }
+    .container{
+        width: 95%;
+        margin: auto;
+    }
+    /* navigation*/
+    .nav-main{
+        font-size: 17px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        height: 60px;
+        padding: 20px 0;
+        
+    }
+    .nav-brand{
+        margin-bottom: 1px;
+        margin-top:none;
+        width: 220px;
+        height: 100px;
+        border-radius: 750px;
+        margin-left: 150px;
+    }
+    /*nav Left*/
+    .nav-main ul{
+        display: flex;
+        margin-right: 220px;    
+    }
+    .nav-main ul li{
+        padding: 10px;
+    }
+    .nav-main ul .nav-menu{
+        display: 1;
+        margin:auto;
+       
+    }
+    .nav-main ul li a:hover{
+        padding: 10px;
+    }
+    .nav-main ul li a:hover{
+    
+        border-bottom: 2px solid rgb(209, 13, 13);
+    }
+
+    hr{
+        margin:15px 0px;
+    }
+    /* submenu*/
+    
+    
+    
+    footer{
+        text-align: center;
+    }
+    
+    #img{
+        position: absolute;
+    }
+    #btn{
+        position: absolute;
+        color: white;
+        padding: 30px 38px; 
+        background: #002972;
+        font-size: 25px;
+    }
+    #Cerrar{
+        position: absolute;
+        color: white;
+        padding: 31px 28px; 
+        background: #a12020;
+        font-size: 25px;
+        margin-left: 960px;
+    }
+    #horario{
+        position: absolute;
+        color: #333333;
+       font-size: 15px;
+        text-align: left;
+        margin-top: 402px;
+        background: #f2f2f2;
+        margin-left: 20px;
+    }
+    #calificaciones{
+        position: absolute;
+        color: #333333;
+       font-size: 15px;
+        text-align: left;
+        margin-top: 529px;
+        background: #f2f2f2;
+        margin-left: 20px;
+    }
+    #Inicio{
+        position: absolute;
+        color: #333333;
+       font-size: 15px;
+        text-align: left;
+        margin-top: 115px;
+        background: #f2f2f2;
+        margin-left: 20px;
+    }
